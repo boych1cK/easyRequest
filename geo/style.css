@@ -1,0 +1,93 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content h2{
+    font-family: Calibri;
+    margin-left: auto;
+    margin-right: auto;
+}
+.only{
+    font-family: Calibri;
+    font-style: italic;
+    text-decoration: wavy;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+input[type=file]{
+    font-family: Calibri;
+    display: block;
+    margin:auto;
+    width: 50%;
+}
+input[type=submit]{
+    font-family: Calibri;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+.faq{
+    display: block;
+    margin-left: auto;
+}
+select{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 185px;
+    height: 40px;
+}
+img{
+    border: 1px solid #888888;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.waitmodal {
+    text-align: center;
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
